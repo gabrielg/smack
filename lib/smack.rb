@@ -1,5 +1,5 @@
 module Smack
-  def self.init; Object.instance_eval { include Smack }; end
+  def self.up; Object.instance_eval { include Smack }; end
   def smack_inject(substitutions)
     (class << self; self; end).instance_eval { @smack_subs = (@smack_subs || {}).merge!(substitutions) }
   end

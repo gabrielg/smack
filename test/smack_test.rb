@@ -1,5 +1,5 @@
 require 'test_helper'
-Smack.init
+Smack.up
 
 class Useless
   def write_a_song
