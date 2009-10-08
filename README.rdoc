@@ -11,7 +11,7 @@ A: No. This is an entire 12 lines of dumb code.
 
 Q: WHY ARE YOU DOING DI IN RUBY ARE YOU A MANIAC?
 
-A: DI is a fine pattern and is sometimes necessary. It's just simpler to do in Ruby, hence the 15 lines of code. This just gives you nice syntax for it.
+A: DI is a fine pattern and is sometimes necessary. It's just simpler to do in Ruby, hence the 12 lines of code. This just gives you nice syntax for it.
 
 
 Q: SHOULD I USE THIS IN PRODUCTION CODE?
