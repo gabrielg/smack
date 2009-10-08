@@ -3,7 +3,7 @@ Smack.up
 
 class Useless
   def write_a_song
-    smack_get(Junkie).new.write_a_song
+    smack_score(Junkie).new.write_a_song
   end
 end
 
@@ -49,7 +49,7 @@ module BandManager
   smack_inject Junkie => LayneStaley
 
   def get_a_song
-    smack_get(Junkie).new.write_a_song
+    smack_score(Junkie).new.write_a_song
   end
   
 end
@@ -64,11 +64,11 @@ module CreativeConglomerate
   smack_inject Band => AliceInChains
   
   def get_a_band
-    smack_get(Band).new
+    smack_score(Band).new
   end
   
   def sell_a_song
-    "BUY BUY BUY " + smack_get(Junkie).new.write_a_song
+    "BUY BUY BUY " + smack_score(Junkie).new.write_a_song
   end
 end
 
@@ -181,7 +181,7 @@ context "Smack" do
       Useless.new
     end
       
-    should "just return the value given to smack_get" do
+    should "just return the value given to smack_score" do
       topic.write_a_song
     end.equals("i'm a regular junkie, not a talented one")
   end # a class with no substitutions

@@ -3,7 +3,7 @@ module Smack
   def smack_inject(substitutions)
     (class << self; self; end).instance_eval { @smack_subs = (@smack_subs || {}).merge!(substitutions) }
   end
-  def smack_get(klass_or_mod)
+  def smack_score(klass_or_mod)
     [self, *(class << self; self; end).ancestors].any? { |mod| (found_mod = mod.smack_fetch(klass_or_mod)) ? (break(found_mod)) : nil } || klass_or_mod
   end
   def smack_fetch(klass_or_mod)
