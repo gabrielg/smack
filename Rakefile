@@ -7,10 +7,10 @@ begin
     gem.name = "smack"
     gem.summary = %Q{DI for dummies}
     gem.description = %Q{Needle is too complex. Here's DI for dummies.}
-    gem.email = "gabriel.gironda@centro.net"
+    gem.email = "gabriel.gironda@gmail.com"
     gem.homepage = "http://github.com/gabrielg/smack"
     gem.authors = ["ggironda"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_development_dependency "riot"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError

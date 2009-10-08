@@ -1,9 +1,7 @@
 require 'rubygems'
-require 'test/unit'
+require 'riot'
+require 'pathname'
 
-$LOAD_PATH.unshift(File.dirname(__FILE__))
 $LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+$LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'smack'
-
-class Test::Unit::TestCase
-end
