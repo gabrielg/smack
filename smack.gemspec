@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/smack.rb",
+     "smack.gemspec",
      "test/smack_test.rb",
      "test/test_helper.rb"
   ]
