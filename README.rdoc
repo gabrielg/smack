@@ -8,8 +8,7 @@ Q: COOL IS THIS LIKE ONE OF THOSE JAVA DI FRAMEWORKS?
 A: No. This is an entire 15 lines of dumb code.
 
 Q: WHY ARE YOU DOING DI IN RUBY ARE YOU A MANIAC?
-A: DI is a fine pattern and is sometimes necessary. It's just simpler to do in Ruby, hence the 15 lines of code. This just
-   gives you nice syntax for it.
+A: DI is a fine pattern and is sometimes necessary. It's just simpler to do in Ruby, hence the 15 lines of code. This just gives you nice syntax for it.
    
 Q: WHY ARE ALL YOUR PROJECT NAMES SO TERRIBLE?
 A: Marketing isn't really my strong point.
